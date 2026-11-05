@@ -60,7 +60,7 @@ export default function LeaderboardPage() {
               <span style={{ flex: 1, fontWeight: 600, overflowWrap: "anywhere" }}>
                 {t.name}
                 <small style={{ display: "block", opacity: 0.55, fontWeight: 400 }}>
-                  {t.checkpoints} / 6 checkpoints
+                  {t.checkpoints} / 3 checkpoints
                 </small>
               </span>
               <span style={{ fontWeight: 800, fontSize: 18 }}>{t.points} pts</span>
